@@ -1,0 +1,226 @@
+
+/* 
+Download fornecido a: 168.232.212.230 
+Voce pode: Criar seus projetos com cleansiteframework. Comercializar seus projetos criados com cleansiteframework
+Voce nao pode: Comercializar o cleansiteframework como se fosse seu. Disponibilizar para download sem o link original da pagina de download. 
+
+Este framework esta sob protecao de direitos GNU. 
+Use apenas para fins pessoais, criacao de projetos, criacao de layouts . 
+Nao comercialize o framework baixado em cleansiteframework.com. 
+Desenvolvido por: Amanda Lemos - amandalemos.info. 
+Empresa detentora dos direitos: Studioweb Rio Soluções Digitais.  
+
+Nao apague os direitos do arquivo. 
+*/
+
+/* ///CONFIGURACOES PADRAO DA PAGINA/// */
+
+.cleansite {
+margin: 0;
+text-size-adjust: 100%;
+-ms-text-size-adjust: 100%; /* 2 */
+-webkit-text-size-adjust: 100%; 
+}
+.cleansite a {text-decoration: none;}
+.cleansite img {width: 100%;}
+/* DEIXAR CONTEÃšDO DENTRO DA DIV */
+.clearfix {overflow: auto;}
+
+
+/* ////////////CORES///////////// */
+
+
+/* CORES PADRAO */
+.cleansite .blue {color: #0688c2;}
+.cleansite .red {color: #e81e1e;}
+.cleansite .rose {color: #e65284;}
+.cleansite .pink {color: #ff2478;}
+.cleansite .black {color: #000000;}
+.cleansite .white {color: #ffffff;}
+.cleansite .orange {color: #f2ae13;}
+.cleansite .yellow {color: #fff500;}
+.cleansite .green {color: #1fef1e;}
+.cleansite .violet {color: #e717bc;}
+
+/* CORES FLAT */
+.cleansite .lightblue {color: #5fb1d7;}
+.cleansite .lightred {color: #dc5555;}
+.cleansite .lightrose {color: #e29495;}
+.cleansite .lightpink {color: #ba4762;}
+.cleansite .lightblack {color: #494949;}
+.cleansite .lightwhite {color: #f0f0f0;}
+.cleansite .lightorange {color: #d7a040;}
+.cleansite .lightyellow {color: #dec93e;}
+.cleansite .lightgreen {color: #96bf66;}
+.cleansite .lightviolet {color: #a9739e;}
+
+
+/* //////////// BG CORES///////////// */
+
+
+/* CORES PADRÃƒO */
+.cleansite .bg_blue {background-color: #1e71ee;}
+.cleansite .bg_red {background-color: #ea1919;}
+.cleansite .bg_rose {background-color: #e5579f;}
+.cleansite .bg_pink {background-color: #f2126f;}
+.cleansite .bg_black {background-color: #000000;}
+.cleansite .bg_white {background-color: #ffffff;}
+.cleansite .bg_orange {background-color: #f2ae13;}
+.cleansite .bg_yellow {background-color: #FFEB3B;}
+.cleansite .bg_green {background-color: #2aef1e;}
+.cleansite .bg_violet {background-color: #d41fbc;}
+
+/* CORES FLAT */
+.cleansite .bg_lightblue {background-color: #1faebb;}
+.cleansite .bg_lightred {background-color: #dc585a;}
+.cleansite .bg_lightrose {background-color: #e29597;}
+.cleansite .bg_lightpink {background-color: #ba4762;}
+.cleansite .bg_lightblack {background-color: #4e4d4d;}
+.cleansite .bg_lightwhite {background-color: #f0f0f0;}
+.cleansite .bg_lightorange {background-color: #c6af79;}
+.cleansite .bg_lightyellow {background-color: #bfc14d;}
+.cleansite .bg_lightgreen {background-color: #7bbc75;}
+.cleansite .bg_lightviolet {background-color: #a378a6;}
+
+
+/* ////////////TEXTOS///////////// */
+
+
+/* TAMANHO DO TEXTO */ 
+.cleansite .big {font-size: 150%;}
+.cleansite .medium {font-size: 120%;}
+.cleansite .small {font-size: 100%;}
+.cleansite .typetext {font-size: 95%;}
+
+/* ALINHAMENTO DO TEXTO */
+.cleansite .left {text-align: left;}
+.cleansite .right {text-align: right;}
+.cleansite .center {text-align: center;}
+.cleansite .justify {text-align: justify;}
+
+/* ////////////NAVEGACAO///////////// */
+
+
+/* LOGO E PESQUISA */
+.cleansite .logo {width: 38%; margin-right: 8%;}
+.cleansite .search {width: 15%;}
+.cleansite .logo_area {width: 66%;}
+.cleansite .logo_box_left {float: left;}
+.cleansite .logo_box_right {float: right;}
+.cleansite .logo_content {width: 80%; padding: 3%; margin: 0%;margin: 0px auto;}
+.cleansite .search_area {width: 34%;}
+
+
+/* MENU */
+.cleansite .menu ul {width: 90%; margin: 0px auto;}
+.cleansite .menu ul li a {list-style-type: none; text-decoration: none;webkit-text-decoration: none;}
+.cleansite .menu ul li a:hover {list-style-type: none;text-decoration: none;webkit-text-decoration: none;}
+
+/* ////////////BOX///////////// */
+
+
+/* TAMANHO DO BOX */
+
+.cleansite .full {width: 100%;}
+.cleansite .full_largue {width: 90%;}
+.cleansite .full_medium {width: 80%;}
+.cleansite .full_small {width: 70%;}
+.cleansite .fifty {width: 50%;}
+.cleansite .fourty {width: 25%;}
+.cleansite .thirty {width: 33%;}
+.cleansite .five {width: 15%; padding: 2.25%;}
+.cleansite .six {width: 15%;padding: 0.6%;}
+.cleansite .sixty {width: 66%;}
+
+/* ALINHAMENTO DO BOX */
+.cleansite .box_left {float: left;}
+.cleansite .box_right {float: right;}
+.cleansite .box_center {margin: 0px auto;}
+.cleansite .box_none {float: none; clear: both;}
+
+
+/* //////////// BORDA BOX ///////////// */
+
+
+.cleansite .rounded_big {border-radius: 30px; webkit-border-radius: 30px;}
+.cleansite .rounded_medium {border-radius: 20px; webkit-border-radius: 20px;}
+.cleansite .rounded_small {border-radius: 10px; webkit-border-radius: 10px;}
+
+
+/* ////////////INTERNO///////////// */
+
+
+/* CONTEUDO COM PADDING */
+.cleansite .content {width: 96%; padding: 1%; margin: 1%;margin: 0px auto;}
+
+
+/* ////////////BACKGROUND///////////// */
+
+
+/* DEFINIR BACKGROUND DE BOX - COLOQUE UMA ID x PARA CADA BACKGROUND SELECIONADO */
+.cleansite .define_background_x {background-image: url();}
+.cleansite .cover {background-size: cover;}
+.cleansite .contain {background-size: contain;}
+.cleansite .unset {background-size: unset;}
+
+/* TAMANHO DO BACKGROUND */
+.cleansite .inherit {background-size: inherit;}
+.cleansite .initial {background-size: initial;}
+.cleansite .auto {background-size: auto;}
+
+/* REPETICAO DO BACKGROUND */
+.cleansite .no-repeat {background-repeat: no-repeat;}
+.cleansite .repeat {background-repeat: repeat;}
+
+
+/* DEFINIR BACKGROUND COM PATTERN DE BOX - COLOQUE UMA ID x PARA CADA BACKGROUND SELECIONADO */
+.cleansite .define_background_with_pattern_x {
+	background-image: url(), url(https://cleansiteframework.com/img/pattern.png);
+	background-repeat: no-repeat, repeat;
+	background-size: cover, 10px 10px;}
+
+
+/* ADS */
+
+.cleansite .ads_full {width: 60%; margin: 5% auto;}
+.cleansite .ads_square {width: 100%;}
+
+
+/* ////////////FOOTER///////////// */
+
+.cleansite footer {width: 100%;}
+.cleansite .padding {padding-top: 5%;padding-bottom: 5%;}
+
+
+/* ////////////RESPONSIVO///////////// */
+
+@media screen and (max-width: 768px) {
+.cleansite .full {width: 100%;}
+.cleansite .full_largue {width: 90%;}
+.cleansite .full_medium {width: 80%;}
+.cleansite .full_small {width: 70%;}
+.cleansite .fifty {width: 100%;}
+.cleansite .fourty {width: 100%;;}
+.cleansite .thirty {width: 100%;}
+.cleansite .five {width: 15%; padding: 2.25%; float: left !important;} 
+.cleansite .six {width: 45%; padding: 2.25%; float: left !important;} 
+.cleansite .sixty {width: 100%;}
+
+/* ALINHAMENTO DO BOX */
+.cleansite .box_left {float: none;}
+.cleansite .box_right {float: none;}
+.cleansite .box_center {margin: 0px auto;}
+.cleansite .box_none {float: none; clear: both;}
+
+.cleansite .logo {width: 35%;margin: 0px auto;}
+.cleansite .search {display: none;}
+.cleansite .logo_area {width: 100%;}
+.cleansite .logo_box_right {float: none; }
+.cleansite .search_area {display: none;}
+
+.cleansite .ads_full {width: 80%; margin: 5% auto;}
+}
+
+
+
+
